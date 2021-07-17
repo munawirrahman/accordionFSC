@@ -1,0 +1,9 @@
+<template>
+    <lightning-accordion allow-multiple-sections-open
+                         onsectiontoggle={handleSectionToggle}
+                         active-section-name={activeSection}>
+        <lightning-accordion-section name="myAccordion" label={label}>
+            <div class = "elementHoldingHTMLContent" lwc:dom="manual"></div>
+        </lightning-accordion-section>
+    </lightning-accordion>
+</template>
